@@ -6,7 +6,7 @@ DATA_DIR = "../data"
 
 def parse_args():
     global DATA_DIR, DEBUG
-    opts, args = getopt.getopt(sys.argv[1:], 'd:', ["--debug", "data-dir="])
+    opts, args = getopt.getopt(sys.argv[1:], 'd', ["debug", "data-dir="])
     for opt, arg in opts:
         if opt == "--data-dir":
             DATA_DIR = arg
