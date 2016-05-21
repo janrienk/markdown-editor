@@ -5,6 +5,7 @@ __pycache__/
 *$py.class
 # ignore jetbrains
 .idea
+data/
 # C extensions
 *.so
 
