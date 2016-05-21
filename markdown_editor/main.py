@@ -28,7 +28,6 @@ def ensure_storage():
         os.chdir(DATA_DIR)
         proc = subprocess.Popen(["git", "init"])
         proc.wait()
-        open("testfile", mode='w')
 
 
 def main():
